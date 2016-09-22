@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+#topHeader {
+    width: 100%;
+    background-color: #5d8aad;
+    height: 40px;
+}
+
+#wanShark {
+    padding: 7px;
+    float: left;
+    color: #E5FFFF;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.color-fluid {
+    background: linear-gradient(#E4EDF3, #F9F9F9);
+}
+
+#login {
+    float: right;
+    margin-right: 15px;
+    padding: 7px;
+    color: #E5FFFF;
+}
+
+#preferences {
+    float: right;
+    margin-right: 25px;
+    padding: 7px;
+    color: #E5FFFF;
+}
+
+#pcapInfo {
+    margin: 5px;
+    padding: 10px 0 5px 0;
+    color: black;
+    font-weight: bold;
+}
+
+#pcapInfo a {
+    font-weight: normal;
+    border-left: 1px solid grey;
+    margin-left: 5px;
+}
+
+.wider-input {
+    width: 800px !important;
+    margin-left: -25px;
+}
+
+.clear-bottom{
+    margin-bottom: 0;
+}
+
+#pcapTraffic {
+    border-top: 2px solid black;
+    height: 400px;
+    background-color: #E4FFC7;
+}
+
+#pcapDetails {
+    height: 250px;
+    border-top: 2px solid black;
+}
+
+#pcapRaw {
+    border-top: 2px solid black;
+    height: 200px;
+}
